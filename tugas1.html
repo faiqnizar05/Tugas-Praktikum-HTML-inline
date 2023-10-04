@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nugas</title>
+</head>
+<body>
+
+    <!--  float untuk mengatur text agar melipat disekitar elemen -->
+    <!-- decoration untuk mengatur text agar berjarak -->
+    <!-- dispplay block untuk menampilkan elemenn elemen kebawah -->
+
+    <div style="background-color: grey; overflow:auto; height: 50px;">
+        <a href="#" style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Beranda</a>
+        <a href="#" style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Tentang Kami</a>
+        <a href="#" style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Layanan</a>
+        <a href="#" style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Shop</a>
+    
+        <form action="/search" style="margin-top: 15px;">
+            <label style="color: white;" for="search">Search:</label>
+            <input  type="text" id="search" name="search">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+
+
+    <div style="padding: 20px;">
+        <h2 style="text-align: center;">NBA Store</h2>
+      
+    <table border="1">
+        <!-- baris 1 -->
+           <tr>
+              <td style="text-align: center;">Item</td>
+              <td style="text-align: center;">Price</td>
+              <td style="text-align: center;">Quantity</td>
+              <td style="text-align: center;">Desripsi</td>
+              <td style="text-align: center;">Color</td>
+              
+
+              
+           </tr>
+          
+           
+        <!-- baris 2 -->
+           <tr>
+                <!-- Kolom kiri -->
+                <td>
+                    <img src="https://th.bing.com/th/id/OIP.wV221jvkf-N5_giIqvxe7AHaHa?pid=ImgDet&rs=1" alt="" style="width: 200px; height: 200px;">
+                </td>
+                <!-- kolom kanan -->
+                <td style="width: 180px; text-align: center;" >$10.000</td>
+                <td style="width: 180px; text-align: center;">Original</td>
+                <td style="width: 180px; text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, tempore maxime fuga architecto alias odit minima necessitatibus iure ad doloribus expedita sequi omnis. Quae asperiores dolores sunt! Pariatur, mollitia incidunt.</td>
+                <td style="width: 180px; text-align: center;">Biru Navy</td>
+                <td style="width: 180px; text-align: center;"><button style="background-color: rgb(175, 245, 70);">Pesan</button></td>
+           </tr>
+           
+
+           <tr>
+            <td>
+                <img src="https://th.bing.com/th/id/OIP.RSsxjv-FuOeYUy8SQhHlIAHaHa?pid=ImgDet&rs=1" alt="" style="width: 200px; height: 200px;">
+            </td>
+           
+            <!-- kolom kanan -->
+            <td style="width: 180px; text-align: center;" >$5000</td>
+            <td style="width: 180px; text-align: center;">Original</td>
+            <td style="width: 180px; text-align: center;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius expedita rerum recusandae odio quisquam blanditiis amet neque voluptatibus delectus saepe dignissimos iure, similique hic voluptas dicta consequatur nihil natus? Esse?</td>
+            <td style="width: 180px; text-align: center;"> Ungu Muda</td>
+            <td style="width: 180px; text-align: center;"><button style="background-color: rgb(175, 245, 70);">Pesan</button></td>
+
+           </tr>
+           
+           <!-- baris 3 -->
+           
+    </table>
+
+   
+    </div>
+</body>
+</html>
